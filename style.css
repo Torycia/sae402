@@ -60,6 +60,14 @@ svg{
     opacity:.9;
 }
 
+@media (max-width: 900px){
+
+    svg{
+        width: stretch;
+    }
+
+}
+
 .fond-bleu2{
     background-color: #021B2B;
     
@@ -597,6 +605,16 @@ main{
         border-color .3s ease,
         color .3s ease,
         box-shadow .3s ease;
+}
+
+@media (max-width: 768px){
+
+    .back-home{
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 25px;
+    }
+
 }
 .back-home:hover{
     color: white;
