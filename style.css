@@ -145,6 +145,17 @@ main{
     text-transform:uppercase;
 }
 
+@media (max-width: 900px){
+
+    .hero-content h1{
+    font-size:5rem;
+    font-weight:700;
+    letter-spacing:10px;
+    text-transform:uppercase;
+    }
+
+}
+
 .hero-content p{
     font-size:1.5rem;
     margin-top:15px;
@@ -226,6 +237,15 @@ main{
     box-sizing: content-box !important;
     padding:120px 10%;
 }
+@media (max-width: 900px){
+
+    .intro{
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+}
 
 .intro-image img{
     width:100%;
@@ -257,6 +277,15 @@ main{
 #img-mok{
     width: 400px;
     filter: contrast(1.1) brightness(1.05);
+}
+
+@media (max-width: 900px){
+
+    #img-mok{
+         width: 300px;
+    filter: contrast(1.1) brightness(1.05);
+    }
+
 }
 
 /* Bouton pour ramener vers la carte*/
